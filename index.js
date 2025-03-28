@@ -29,7 +29,7 @@ function loadConfig() {
           userPoolId: 'ap-northeast-1_M22I44OpC',
           },
         stork: {
-          intervalSeconds: 30
+          intervalSeconds: 60
         },
         threads: {
           maxWorkers: 1
