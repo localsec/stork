@@ -1,0 +1,39 @@
+{
+  "type":"module",
+  "name": "stork-auto-bot",
+  "version": "1.0.0",
+  "description": "Bot xác thực tự động cho mạng Stork Oracle",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Lỗi: không có bài kiểm tra nào\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/localsec/stork.git"
+  },
+  "keywords": [
+    "stork",
+    "oracle",
+    "validation",
+    "bot",
+    "automation"
+  ],
+  "author": "Local Sec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/localsec/"
+  },
+  "homepage": "https://github.com/localsec/",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^6.3.1",
+    "axios": "^1.6.2",
+    "fs": "0.0.1-security",
+    "https-proxy-agent": "^7.0.2",
+    "path": "^0.12.7",
+    "socks-proxy-agent": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
